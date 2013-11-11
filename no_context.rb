@@ -42,6 +42,15 @@ class NoContext < Sinatra::Base
   	erb :edition
   end
 
+  get "/sample/" do
+
+    # Preset some hilarity
+    @hilarity = "In the criminal justice system, YOLO-based offenses are considered especially LOL."
+
+    # Render the publication
+    erb :edition
+  end
+
   post "/validate_config/" do
 
     # This bit is all stolen from the example
