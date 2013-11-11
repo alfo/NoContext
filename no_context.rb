@@ -10,6 +10,9 @@ class NoContext < Sinatra::Base
 
   get "/edition/" do
 
+    # Do param checking
+    return 400, 'Error: No local_delivery_time was provided' if params[:local_delivery_time].nil?
+
   	# Initialize Reddit Client
   	client = Snooby::Client.new
 
