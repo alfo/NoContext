@@ -6,16 +6,3 @@ Rake::TestTask.new(:spec) do |t|
   t.test_files = FileList['spec/*_spec.rb']
   t.ruby_opts = ['-rubygems'] if defined? Gem
 end
-
-namespace :db do
-  desc "Run all migrations in db/migrate"
-  task :migrate => :connect do
-    Sequel.extension(:migration)
-    Sequel::Migrator.apply(DB, "db/migrate")
-  end
-
-  task :connect => :environment do
-    require "./config/initializers/database"
-  end
-end
-

@@ -3,9 +3,7 @@ source "https://rubygems.org/"
 # App Stack
 gem "sinatra", "~> 1.3"
 
-# Database Stack
-gem "sequel"
-gem "sqlite3"
+gem "snooby"
 
 group :development do
   gem "rake", "~> 10.0"
