@@ -1,0 +1,9 @@
+Error: /undefined in "
+Operand stack:
+   --nostringval--
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--   --nostringval--   --nostringval--   false   1   %stopped_push   1894   1   3   %oparray_pop   1893   1   3   %oparray_pop   1877   1   3   %oparray_pop   1771   1   3   %oparray_pop   --nostringval--   %errorexec_pop   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--
+Dictionary stack:
+   --dict:1164/1684(ro)(G)--   --dict:0/20(G)--   --dict:242/300(L)--
+Current allocation mode is local
+Current file position is 3864
