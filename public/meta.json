@@ -2,7 +2,7 @@
   "owner_email":"me@alexforey.com",
   "publication_api_version":"1.0",
   "name": "No Context",
-  "description": "A daily dose of hilarity and obscenity from /r/nocontext. Warning: offensive language, sex references, and generally disturbing.",
+  "description": "A daily dose of hilarity and obscenity from /r/nocontext. Warning: contains offensive language, sex references, and generally disturbing.",
   "delivered_on":"on weekdays",
   "external_configuration": false,
   "send_timezone_info": true,
