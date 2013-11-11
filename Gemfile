@@ -4,6 +4,7 @@ source "https://rubygems.org/"
 gem "sinatra", "~> 1.3"
 
 gem "snooby"
+gem "obscenity"
 
 group :development do
   gem "rake", "~> 10.0"

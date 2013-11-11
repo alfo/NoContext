@@ -1,0 +1,22 @@
+{
+  "owner_email":"me@alexforey.com",
+  "publication_api_version":"1.0",
+  "name": "No Context",
+  "description": "Example publication for Little Printer",
+  "delivered_on":"on weekdays",
+  "external_configuration": false,
+  "send_timezone_info": true,
+  "send_delivery_count": false,
+  "config": {
+    "fields": [
+      {
+        "type": "check_box",
+        "name": "we_are_british",
+        "label": "",
+        "options": [
+          ["No Profanity Please, We're British","true"]
+        ]
+      }
+    ]
+  }
+}

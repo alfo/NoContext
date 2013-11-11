@@ -4,6 +4,7 @@ GEM
     json (1.8.1)
     minitest (4.7.5)
     net-http-persistent (2.9)
+    obscenity (1.0.2)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
@@ -24,6 +25,7 @@ PLATFORMS
 
 DEPENDENCIES
   minitest (~> 4.6)
+  obscenity
   rack-test (~> 0.6)
   rake (~> 10.0)
   sinatra (~> 1.3)
